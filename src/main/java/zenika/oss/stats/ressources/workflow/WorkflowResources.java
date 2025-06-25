@@ -10,7 +10,6 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import zenika.oss.stats.beans.ZenikaMember;
 import zenika.oss.stats.beans.CustomStatsContributionsUserByMonth;
-import zenika.oss.stats.beans.ZenikaMember;
 import zenika.oss.stats.beans.gcp.StatsContribution;
 import zenika.oss.stats.beans.github.GitHubMember;
 import zenika.oss.stats.beans.github.GitHubProject;
@@ -25,7 +24,7 @@ import java.util.List;
 
 @ApplicationScoped
 @Path("/v1/workflow/")
-public class WorkflowRessources {
+public class WorkflowResources {
 
     @Inject
     GitHubServices gitHubServices;

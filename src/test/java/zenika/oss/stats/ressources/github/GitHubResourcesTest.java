@@ -20,9 +20,9 @@ import static io.restassured.RestAssured.given;
 import static org.mockito.ArgumentMatchers.any;
 
 @QuarkusTest
-class GitHubRessourcesTest {
+class GitHubResourcesTest {
 
-    private static final Logger log = LoggerFactory.getLogger(GitHubRessourcesTest.class);
+    private static final Logger log = LoggerFactory.getLogger(GitHubResourcesTest.class);
 
     private GitHubMember member;
 

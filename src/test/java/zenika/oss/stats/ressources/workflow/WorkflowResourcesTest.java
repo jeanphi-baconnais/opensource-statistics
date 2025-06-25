@@ -6,16 +6,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import zenika.oss.stats.beans.github.GitHubMember;
-import zenika.oss.stats.services.FirestoreServices;
 import zenika.oss.stats.services.GitHubServices;
 
-import java.util.Arrays;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
 @QuarkusTest
-public class WorkflowRessourcesTest {
+public class WorkflowResourcesTest {
 
     @InjectMock
     GitHubServices gitHubServices;

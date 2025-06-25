@@ -13,7 +13,7 @@ import java.time.Year;
 
 @ApplicationScoped
 @Path("/v1/github/")
-public class GitHubRessources {
+public class GitHubResources {
 
     @ConfigProperty(name = "organization.name")
     String organizationName;

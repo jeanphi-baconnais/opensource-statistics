@@ -8,12 +8,12 @@ import jakarta.ws.rs.core.Response;
 
 @ApplicationScoped
 @Path("/v1/contributions/")
-public class ContributionsRessources {
+public class ContributionsResources {
     /**
      * Get contributions for one member.
      *
      * @param memberId of the member requested
-     * @return
+     * @return list of contributions
      */
     @GET
     @Path("/contributions/member/{memberId}")

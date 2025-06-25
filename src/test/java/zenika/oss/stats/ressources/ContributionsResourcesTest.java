@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 
 @QuarkusTest
-class ContributionsRessourcesTest {
+class ContributionsResourcesTest {
 
     @Test
     void test_getContributionsByMember() {
